@@ -18,11 +18,11 @@ npx skills add https://github.com/RollingGo-AI/hotel-skill --agent cursor
 ## What it does
 
 Once installed, your AI Agent will understand how to:
-1. Trigger an OAuth 2.1 PKCE login flow via `rogo login`.
-2. Convert your natural language requests into strict CLI commands for `rogo search-hotels`.
-3. Fetch real-time hotel room pricing via `rogo hotel-detail`.
-4. Securely lock the price using `rogo price-confirm`.
-5. Guide you through the final order creation via `rogo book` to generate an Alipay payment link.
+1. Trigger an OAuth 2.1 PKCE login flow via `rgh login`.
+2. Convert your natural language requests into strict CLI commands for `rgh search-hotels`.
+3. Fetch real-time hotel room pricing via `rgh hotel-detail`.
+4. Securely lock the price using `rgh price-confirm`.
+5. Guide you through the final order creation via `rgh book` to generate an Alipay payment link.
 
 ## Security & Privacy
 - **No API Keys**: Uses secure OAuth 2.1 PKCE stored strictly on your local machine.
