@@ -41,7 +41,6 @@ Official AI skills for the **RollingGo Hotel CLI** (`@rollinggo/hotel`). They te
 Works with Cursor, Claude Code, Codex, Windsurf, Copilot, Google Antigravity, and 40+ agents:
 
 ```bash
-# Install the core hotel booking skill
 npx skills add https://github.com/RollingGo-AI/hotel-skill --skill hotel-core
 ```
 
@@ -111,7 +110,6 @@ rgh book --reference-no "REF9999" --first-name "San" --last-name "Zhang" --email
 自动兼容 Cursor, Claude Code, Windsurf 等 40+ 种代理：
 
 ```bash
-# 安装核心酒店预订技能
 npx skills add https://github.com/RollingGo-AI/hotel-skill --skill hotel-core
 ```
 
