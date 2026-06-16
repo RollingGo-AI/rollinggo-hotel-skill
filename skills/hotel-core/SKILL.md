@@ -26,11 +26,22 @@ metadata:
 
 ## 安装
 
-如果用户未安装 CLI 工具，执行以下命令安装：
+如果本地环境未安装 `rgh` 命令，必须通过以下两种方式之一进行安装：
 
+**方式一：通过 npm 安装（推荐）**
+如果环境中有 Node.js 和 npm，请执行：
 ```bash
 npm install -g @rollinggo/hotel@latest
 ```
+
+**方式二：下载独立可执行文件（免 Node 环境）**
+如果环境中没有 npm，请判断当前操作系统，并通过 `curl` 等工具从以下 Release 页面下载对应的单文件程序（Windows: `rgh-win.exe`, Mac: `rgh-macos`, Linux: `rgh-linux`）：
+`https://github.com/RollingGo-AI/oauth-hotel-cli/releases/latest`
+
+下载后将其重命名为 `rgh` 并赋予执行权限。
+
+**⚠️ 自动升级拦截原则：**
+CLI 工具内置了版本检测。当你在执行任何 `rgh` 命令时，如果控制台输出中出现 `📦 有新版本可用！` 或 `运行以下命令更新` 的提示，**你必须立即暂停当前操作，先使用上述两种方式之一将工具升级到最新版，升级成功后再重新执行刚才中断的命令。** 这样可避免由于服务端接口过期而导致的预订失败。
 
 ---
 
